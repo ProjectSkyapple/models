@@ -31,7 +31,7 @@ from object_detection.core import preprocessor
 from object_detection.core import standard_fields as fields
 from object_detection.utils import ops as util_ops
 from object_detection.utils import variables_helper
-from deployment import model_deploy
+from object_detection.legacy.deployment import model_deploy
 
 
 def create_input_queue(batch_size_per_clone, create_tensor_dict_fn,

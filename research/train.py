@@ -45,6 +45,7 @@ import functools
 import json
 import os
 import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 from tensorflow.python.util.deprecation import deprecated
 
 
