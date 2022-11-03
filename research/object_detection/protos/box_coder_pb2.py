@@ -11,10 +11,10 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import faster_rcnn_box_coder_pb2 as faster__rcnn__box__coder__pb2
-import keypoint_box_coder_pb2 as keypoint__box__coder__pb2
-import mean_stddev_box_coder_pb2 as mean__stddev__box__coder__pb2
-import square_box_coder_pb2 as square__box__coder__pb2
+from object_detection.protos import faster_rcnn_box_coder_pb2 as faster__rcnn__box__coder__pb2
+from object_detection.protos import keypoint_box_coder_pb2 as keypoint__box__coder__pb2
+from object_detection.protos import mean_stddev_box_coder_pb2 as mean__stddev__box__coder__pb2
+from object_detection.protos import square_box_coder_pb2 as square__box__coder__pb2
 
 
 DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0f\x62ox_coder.proto\x12\x17object_detection.protos\x1a\x1b\x66\x61ster_rcnn_box_coder.proto\x1a\x18keypoint_box_coder.proto\x1a\x1bmean_stddev_box_coder.proto\x1a\x16square_box_coder.proto\"\xc7\x02\n\x08\x42oxCoder\x12L\n\x15\x66\x61ster_rcnn_box_coder\x18\x01 \x01(\x0b\x32+.object_detection.protos.FasterRcnnBoxCoderH\x00\x12L\n\x15mean_stddev_box_coder\x18\x02 \x01(\x0b\x32+.object_detection.protos.MeanStddevBoxCoderH\x00\x12\x43\n\x10square_box_coder\x18\x03 \x01(\x0b\x32\'.object_detection.protos.SquareBoxCoderH\x00\x12G\n\x12keypoint_box_coder\x18\x04 \x01(\x0b\x32).object_detection.protos.KeypointBoxCoderH\x00\x42\x11\n\x0f\x62ox_coder_oneof')

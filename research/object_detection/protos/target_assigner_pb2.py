@@ -11,9 +11,9 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-import box_coder_pb2 as box__coder__pb2
-import matcher_pb2 as matcher__pb2
-import region_similarity_calculator_pb2 as region__similarity__calculator__pb2
+from object_detection.protos import box_coder_pb2 as box__coder__pb2
+from object_detection.protos import matcher_pb2 as matcher__pb2
+from object_detection.protos import region_similarity_calculator_pb2 as region__similarity__calculator__pb2
 
 
 DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15target_assigner.proto\x12\x17object_detection.protos\x1a\x0f\x62ox_coder.proto\x1a\rmatcher.proto\x1a\"region_similarity_calculator.proto\"\xcd\x01\n\x0eTargetAssigner\x12\x31\n\x07matcher\x18\x01 \x01(\x0b\x32 .object_detection.protos.Matcher\x12R\n\x15similarity_calculator\x18\x02 \x01(\x0b\x32\x33.object_detection.protos.RegionSimilarityCalculator\x12\x34\n\tbox_coder\x18\x03 \x01(\x0b\x32!.object_detection.protos.BoxCoder')
